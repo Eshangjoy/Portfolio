@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: khaki;
+}
+body {
+   background: url(../images/nice.jpg) no-repeat;
+   background-size: cover;
+   background-position: center;
+  }
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 18px;
+    padding-left: 600px;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: sticky;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: khaki;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: lightpink;
+    transition: .4s;
+}
+/*MAIN CONTAINER*/
+    
+    .main-container
+    {
+        border: 2px solid #fff;
+        height: auto;
+        width: 680px;
+        background-color: rgba(0, 0, 0, 0.62);
+        box-shadow: 8px 7px 15px 8px turquoise;        
+        margin: 0 auto;
+        position: center;
+        margin-top:100px;
+        margin-bottom:100px;
+        border-radius: 20px;
+    }
+    /*TOP SECTION*/
+    .top-section{
+        background-color: rgba(0, 0, 0, 0.75);
+        text-align: center;
+        padding: 15px;
+        border-radius: 20px ;
+        
+    }
+    .profile{
+        width: 200px;
+        border-radius: 50%;
+    }
+    
+    .top-section p{
+        font-size: 20px;
+        color: lightpink;
+        margin: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+      .top-section p span{
+    color: khaki;
+        font-size: 40px;
+        font-weight: bold;
+        margin: 0px;
+        margin-top: 10px;
+    }
+   
+   
+    
+    /*DIVISION OF LEFT AND RIGHT CONTAINER*/
+    .line{
+        border-left: 1px solid white;
+      height: 820px;
+      width: 2%;
+      margin-top: 30px;
+      float:left;
+    }
+
+    .line2{
+        border-left: 1px solid white;
+      height: 580px;
+      width: 2%;
+      margin-top: 30px;
+      float:left;
+    }
+    /*LEFT CONTAINER*/
+     .content-box{
+        padding: 30px;
+        padding-left: 40px;
+    }
+    
+    .label{
+        font-weight:bold ;    
+        text-transform: uppercase;
+        line-height: 15px;
+        color:ffd700;   
+        margin-bottom: 20px;
+    }
+    p{
+        color: white;
+        margin-bottom: 15px;
+        font-size: 14px;
+    }
+    .fa{
+        color: khaki;
+    }
+    .skills{
+        margin-left: -20px;
+            margin-bottom: 0px;
+    }
+    .skills li{
+        padding: 5px;
+        color: khaki;
+    }
+     /*RIGHT CONTAINER*/
+    .right-column{
+        width: 35%;
+        float: left;
+    }
+     .exp{
+         font-weight:bold;
+         font-size: 18px;
+     }
+   
+    /*FOOTER*/
+footer {
+background-color: rgba(0, 0, 0, 0.4);
+color:  lightpink;
+padding: 5px;
+Text-align: center;
+padding-top: 15px;
+}

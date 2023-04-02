@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: khaki;
+}
+
+body{
+    background: url(../images/nice.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Navbar */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 18px;
+    padding-left: 585px;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: sticky;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: khaki;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+nav ul li a i:hover{
+    color: lightpink;
+    transition: .4s;
+}
+
+/*Tribute Container*/
+
+.tribute-container{
+    margin-left: 250px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 60%;
+    height: 250px;
+    height: auto;
+    border: white 3px solid;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.tribute-header{
+    text-align: left;
+    height: auto;
+    border: white 3px solid;
+    background: rgba(0, 0, 0, 0.75);
+}
+
+.artist{
+    margin-top: 10px;
+    font-size: 80px;
+    margin-bottom: 10px;
+}
+
+.status{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 94.5px;
+}
+
+.tribute-header img{
+    height: 250px;
+    width: 250px;
+    float: left;
+    background: rgba(0, 0, 0, 0.80);
+    margin-right: 15px;
+}
+
+.tribute-body{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.album img{
+    width: 280px;
+    height: 400px;
+    filter: grayscale();
+    margin-left: 13px;
+    margin-bottom: 10px;
+}
+
+.album img:hover{
+    filter: none;
+    transition: .2s;
+    border: green 3px solid;
+}

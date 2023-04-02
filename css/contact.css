@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: khaki;
+}
+
+body{
+    background: url(../images/nice.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Navbar */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 18px;
+    padding-left: 620px;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: sticky;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: khaki;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: lightpink;
+    transition: .4s;
+}
+
+/*My Accounts*/
+
+.box{
+    text-align: center;
+    margin-top: 5%;
+    padding-bottom: 5%;
+}
+
+.box h1{
+    margin-bottom: 5%;
+}
+
+.box h2{
+    margin-top: 2%;
+}
+
+.box ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+.box ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 40px;
+}
+.box ul li a i:hover{
+    color: lightpink;
+    transition: .4s;
+}
+
+.my-contact .me-myself{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    border: white 2px solid;
+
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.4);
+    color:  lightpink;
+    padding: 5px;
+    Text-align: center;
+    }
