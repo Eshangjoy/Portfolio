@@ -57,8 +57,9 @@ nav ul li a:hover{
         
     }
     .profile{
-        width: 200px;
         border-radius: 50%;
+           width: 300px;
+        height: 250px;
     }
     
     .top-section p{
