@@ -96,3 +96,26 @@ nav ul li a i:hover{
     transition: .2s;
     border: green 3px solid;
 }
+
+.about{
+    margin-left: 250px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 60%;
+    height: 250px;
+    height: auto;
+    border: white 3px solid;
+    background: rgba(0, 0, 0, 0.75);
+}
+
+.about span{
+    margin-left: 5px;
+    margin-top: 5px;
+    color: white;
+}
+
+.info{
+    margin-left: 10px;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+}
